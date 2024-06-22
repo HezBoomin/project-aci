@@ -1,5 +1,3 @@
-import Nav from "../components/nav";
-import Footer from "../components/footer";
 import News from "../components/cardNews";
 
 export default function Home() {

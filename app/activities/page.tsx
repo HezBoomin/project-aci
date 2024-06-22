@@ -1,7 +1,5 @@
 "use client";
 import {Tabs as TabsNextUI, Tab as TabNextUI, Card, CardBody,  Image} from "@nextui-org/react";
-import Nav from "../../components/nav";
-import Footer from "../../components/footer";
 export default function About() {
     return (
         <>
