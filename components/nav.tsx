@@ -5,26 +5,27 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-      <Navbar className=" pb-2 w-screen sticky top-0 z-50 bg-blue-400">
+      <Navbar position="static" className=" pb-2 w-screen top-0 z-50">
           <NavbarBrand>
               <Image
-                  src="/ACI.png"
+                  src="/raya.BMP"
                   alt="/aci"
-                  width={200}
-                  height={200}
+                  width={400}
+                  height={400}
+                  className="pt-2"
 
               />
           </NavbarBrand>
-          <NavbarContent className="hidden sm:flex gap-4" justify="center">
+          <NavbarContent className="hidden sm:flex gap-4 pt-4" justify="center">
               <NavbarItem className="px-2 ">
-                  <Link className="text-white" color="foreground" href="/">
+                  <Link className="" color="foreground" href="/">
                       Home
                   </Link>
               </NavbarItem>
               <NavbarItem className="px-2">
                   <Dropdown>
                       <DropdownTrigger>
-                          <Link className="text-white" color="foreground">
+                          <Link className="" color="foreground">
                               About Us
                           </Link>
                       </DropdownTrigger>
@@ -37,7 +38,7 @@ export default function Nav() {
               <NavbarItem className="px-2">
                   <Dropdown>
                       <DropdownTrigger>
-                          <Link className="text-white" color="foreground">
+                          <Link className="" color="foreground">
                               Events
                           </Link>
                       </DropdownTrigger>
@@ -45,27 +46,26 @@ export default function Nav() {
                           <DropdownItem key="WIC" href="/activities/certification">Certification</DropdownItem>
                           <DropdownItem key="LT" href="/activities/leadership-training">Leadership Training</DropdownItem>
                           <DropdownItem key="KAN" href="/activities/certification">Accreditation by KAN</DropdownItem>
-                          <DropdownItem key="SC" href="/activities/student-activities">Universitas Indonesia Student Chapter Activities</DropdownItem>
                       </DropdownMenu>
                   </Dropdown>
               </NavbarItem>
               <NavbarItem className="px-2 ">
-                  <Link className="text-white" color="foreground" href="/membership">
+                  <Link className="" color="foreground" href="/membership">
                       Membership
                   </Link>
               </NavbarItem>
               <NavbarItem className="px-2 ">
-                  <Link className="text-white" color="foreground" href="/student-chapter">
+                  <Link className="" color="foreground" href="/student-chapter">
                       Student Chapter
                   </Link>
               </NavbarItem>
               <NavbarItem className="px-2 ">
-                  <Link className="text-white" color="foreground" href="/gallery">
+                  <Link className="" color="foreground" href="/gallery">
                       Gallery
                   </Link>
               </NavbarItem>
               <NavbarItem className="px-2">
-                  <Link className="text-white" color="foreground" href="/contact-us">
+                  <Link className="" color="foreground" href="/contact-us">
                       Contact Us
                   </Link>
               </NavbarItem>
