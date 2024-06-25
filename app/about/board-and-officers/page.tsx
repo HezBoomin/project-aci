@@ -81,7 +81,7 @@ export default function Officers() {
     return (
         <>
             <main className=" flex min-h-screen pt-24 items-center flex-col">
-                <h1 className="text-3xl pb-8"> Officers of ACI Western Indonesia Chapter</h1>
+                <h1 className="text-4xl pb-8 font-bold text-red-900"> Officers of ACI Western Indonesia Chapter</h1>
                 <Card>
                     <CardBody>
                         <div className="gap-24 grid grid-cols-4 sm:grid-cols-3 px-8 py-4">

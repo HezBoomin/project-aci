@@ -6,7 +6,7 @@ export default function Certification() {
         <>
             <main className="flex min-h-screen flex-col items-center pt-24 p-4">
                 <div className="flex flex-col items-center justify-center w-full px-20 text-center py-8">
-                    <h1 className="text-4xl ">Accreditation by KAN (national accreditation committee)</h1>
+                    <h1 className="text-4xl font-bold text-red-900">Accreditation by KAN (National Accreditation Committee)</h1>
                 </div>
                 <Card className="w-[800px]">
                     <CardBody>
@@ -47,10 +47,10 @@ export default function Certification() {
                                         width={300}
                                         height={300}
                                     />
-                                    <p>Meeting with Director of KAN, <br></br>6 May 2024</p>
+                                    <p className="text-xs"><i>Meeting with Director of KAN, <br></br>6 May 2024</i></p>
                                 </div>
                                 <div className="flex flex-col flex-wrap items-center">
-                                    <h1 className="text-xl pl-8">KAN (National Accreditation Committee)</h1>
+                                    <h1 className="text-xl pl-8 pb-2">KAN (National Accreditation Committee)</h1>
                                     <hr className="w-72 ml-8"></hr>
                                     <div className="flex flex-col items-start pt-2">
                                         <p> ACI Indonesia Western Chapter</p>

@@ -4,8 +4,8 @@ export default function About() {
     return (
         <>
             <main className=" flex min-h-screen pt-16 items-center flex-col">
-                <h1 className="text-3xl"> About Us</h1>
-                <div className="py-8">
+                <h1 className="text-3xl font-bold text-red-900"> About Us</h1>
+                <div className="py-12">
                     <Card className="w-[800px]">
                         <CardBody>
                             <div className="flex ">
@@ -47,8 +47,8 @@ export default function About() {
                         </CardBody>
                     </Card>
                 </div>
-                <h1 className="text-3xl"> Our Purpose</h1>
-                <div className="py-8">
+                <h1 className="text-3xl font-bold text-red-900"> Our Purpose</h1>
+                <div className="py-12">
                     <Card className="w-[800px]">
                         <CardBody>
                             <div className="flex justify-center z-40 ">

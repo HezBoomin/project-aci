@@ -15,10 +15,6 @@ export default function News() {
                 src="new1.jpg"
                 width={400}
             />
-            <CardFooter
-                className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                <p className="text-tiny text-black">Read More</p>
-            </CardFooter>
         </Card>
     );
 }
